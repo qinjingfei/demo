@@ -4,6 +4,6 @@
 
 ## 目录
 
-No| Guide | Demo | CodePen
----| --- | ---
-1| [Vue图片轮播指南](https://qinjingfei.github.io/demo/vue_slide/)| [Vue轮播效果](https://qinjingfei.github.io/demo/vue_slide/index.html)| [codepen](https://codepen.io/jingfei/pen/PaVyom)|
+No| Guide | Demo | CodePen|
+---| --- | ---   | ---     |
+1| [Vue图片轮播指南](https://github.com/qinjingfei/demo/blob/master/vue_slide/README.md)| [Vue轮播效果](https://qinjingfei.github.io/demo/vue_slide/index.html)| [codepen](https://codepen.io/jingfei/pen/PaVyom)|

@@ -46,7 +46,8 @@
  它可以总共分为8个阶段：
  beforeCreate（创建前）,created（创建后）,beforeMount(载入前),mounted（载入后）, beforeUpdate（更新前）,updated（更新后）,beforeDestroy（销毁前）,destroyed（销毁后）
 
- 图片如下[![](https://cn.vuejs.org/images/lifecycle.png)](https://cn.vuejs.org/images/lifecycle.png)
+ 图片如下
+ <img src="https://cn.vuejs.org/images/lifecycle.png" style="zoom:50%" />
 
  * CSS transition的使用
 
