@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>轮播(Vue)</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="showbox" id="app">
+  <transition-group tag="ul" name="list" class="imagebox">
+    <li v-for="(item,index) in imagebox" :key="index" v-show="index===currentIndex">
+     <a href="#">
+       <img :src="item.src":alt="item.desc" @mouseenter="stop" @mouseleave=go >
+      </a>
+    </li>
+  </transition-group>
+  <div class="list-items">
+    <span v-for="(item,index) in imagebox.length"  @mouseover="change(index)" :class="isActive(index)"></span>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
