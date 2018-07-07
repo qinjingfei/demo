@@ -2,22 +2,22 @@ var app = new Vue({
   el: "#app",
   data:{
     imagebox:[{
-  src:"https://s25.postimg.cc/vjnp8gmy7/banner_00.jpg",
+  src:"https://www.dropbox.com/s/edjyasopki8vc5r/banner_00.jpg?raw=1",
     desc: 0
   },{
-    src:"https://s25.postimg.cc/3wazud9hb/banner_01.jpg",
+    src:"https://www.dropbox.com/s/ko8ghjj2dkf5hna/banner_01.jpg?raw=1",
     desc: 1
   },{
-    src:"https://s25.postimg.cc/6qe57u6in/banner_02.jpg",
+    src:"https://www.dropbox.com/s/63v21atzawg5ik5/banner_02.jpg?raw=1",
     desc:2
   },{
-    src:"https://s25.postimg.cc/is9j1z81b/banner_03.jpg",
+    src:"https://www.dropbox.com/s/q6kq66dtkglrq78/banner_03.jpg?raw=1",
     desc:3
   },{
-    src:"https://s25.postimg.cc/lz42llkrj/banner_04.jpg",
+    src:"https://www.dropbox.com/s/jgsjrz7pa82t4lx/banner_04.jpg?raw=1",
     desc: 4
   },{
-    src:"https://s25.postimg.cc/j50x85avj/banner_05.jpg",
+    src:"https://www.dropbox.com/s/ahykalk1ka3meaf/banner_05.jpg?raw=1",
     desc: 5
   }],
     timer:null,
