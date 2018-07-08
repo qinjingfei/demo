@@ -4,20 +4,18 @@
   box-sizing:border-box;
 }
 
-.showbox{
-  display:flex;
+body{
+  display: flex;
   justify-content:center;
-  height:500px;
-  width:100%;
-  overflow:hidden;
-}
-
-h1{
-  text-align:center;
+  align-items:center;
+  min-height:100vh;
 }
 
 .showbox{
   position:relative;
+  overflow:hidden;
+  width:1224px;
+  height:500px;
 }
 
 li{
@@ -29,18 +27,16 @@ li{
 .imagebox{
   position:absolute;
   overflow:hidden;
-  width:1224px;
-  height:500px;
+  width:100%;
+  height:100%;
 }
 
 .list-items{
   position:absolute;
-  z-index:10;
   width:100%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 0;
-  top: 480px;
+  z-index:10;
+  top: 450px;
+  text-align:center;
 }
 
 .list-items span{
