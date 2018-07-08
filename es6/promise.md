@@ -10,8 +10,7 @@
 
 [callback hell](http://callbackhell.com/)
 
-[Promise对象](https://wohugb.gitbooks.io/ecmascript-6/content/docs/
-promise.html)
+[Promise对象](https://wohugb.gitbooks.io/ecmascript-6/content/docs/promise.html)
 
 [Promise对象](http://javascript.ruanyifeng.com/advanced/promise.html)
 
