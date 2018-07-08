@@ -12,8 +12,12 @@ No| Guide | Demo | CodePen|
 
 # ES6 笔记
 
+阅读阮一峰ECMAScript 6 入门的笔记
+[阮一峰ECMAScript 6 入门](https://legacy.gitbook.com/book/wohugb/ecmascript-6/details)
+
 ## 目录
 
 No | Note |
 ---| --- |
 1| [let 和 const 命令](https://github.com/qinjingfei/demo/blob/master/es6/let_and_const.md)
+2| [变量的解构赋值](https://github.com/qinjingfei/demo/blob/master/es6/destructuring.md)
