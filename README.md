@@ -22,6 +22,7 @@ No | Note |
 1| [let 和 const 命令](https://github.com/qinjingfei/demo/blob/master/es6/let_and_const.md)|
 2| [变量的解构赋值](https://github.com/qinjingfei/demo/blob/master/es6/destructuring.md) |
 12|[Promise对象](https://github.com/qinjingfei/demo/blob/master/es6/promise.md) |
+13|[Class && Moudle](https://github.com/qinjingfei/demo/blob/master/es6/class.md) |
 
 
 
@@ -31,4 +32,4 @@ No | Note |
 
 No | Note |
 ---| --- |
-1  | [ajax](https://github.com/qinjingfei/demo/blob/master/etc/ajax.md)) |
+1  | [ajax](https://github.com/qinjingfei/demo/blob/master/etc/ajax.md)|
