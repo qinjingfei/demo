@@ -33,23 +33,35 @@
 
 
 `<em>`: emphasis(强调)
+
+
 `<aside>`: sidebars(侧栏 )
+
+
 `<thead>`: head of table
-`<td>`: defines a cell of a table that contains data 	
+
+
+`<td>`: defines a cell of a table that contains data 
+
+
 `<dl>`: a description list
+
+
 `<dt>`: specifies a term in a description or definition list
+
+
 `<dd>`: provides the details about or the definition of the preceding term 
 
 
 
-* <meta charset="utf-8">
+* `<meta charset="utf-8">`
 	* charset(characterset) 字符集
-* <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+* `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">`
 
  [viewport MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)
 
 如果一个移动屏幕宽640px, 没有`width=device-width`，页面可能被渲染成一个980px的虚拟视口，并且将缩小去适应到640px的宽度。
- ![html_1](./html_1.png)
+ ![html_1](./img/html_1.png)
 
 
 * <base href="/">
@@ -238,7 +250,7 @@ $('input').attr('checked'); // returns "checked"
 
 如果一个元素有默认的值，attribute会显示默认值，即使值发生了改变。
 
-````
+```
 <input type="text" name="username" value="user123">
 
 $('input').prop('value', '456user');
