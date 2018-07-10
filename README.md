@@ -33,3 +33,4 @@ No | Note |
 No | Note |
 ---| --- |
 1  | [ajax](https://github.com/qinjingfei/demo/blob/master/etc/ajax.md)|
+2  | [html总结](https://github.com/qinjingfei/demo/blob/master/etc/html.md)|
