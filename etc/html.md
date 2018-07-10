@@ -9,6 +9,7 @@
 * HTML元素嵌套关系
 * HTML元素默认样式和定制化
 
+[h5](https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#metadata-content-0)
 ## HTML常见的元素
 
 ### head里出现的元素
@@ -110,7 +111,7 @@
 * select > option[value]
 * label[for]
 
-[简单的demo](./1.html)
+[简单的demo](https://qinjingfei.github.io/demo/etc/1.html)
 
 ### 如何理解HTML
 
@@ -140,12 +141,12 @@
 	* main
 	* 等
 
-![html_2](./html_2.gif)
+![html_2](./img/html_2.gif)
 
 * 表单增强(新的input类型)
   * 日期、 时间 、 搜索（date, datetime, search）
 
- ![html_3](html_3.png)
+ ![html_3](./img/html_3.png)
   
 * 绘画元素
 	* canvas
@@ -161,3 +162,105 @@
 	* websocket
 	* webworker
 	* Geolocation 等
+
+
+
+##  HTML元素分类
+
+* 按默认样式分
+  * 块级元素 block(占据一整行)
+  * 行内元素 inline
+  * inline-block
+* 按内容分
+
+![](./img/html_4.png)
+
+[h5](https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#metadata-content-0)
+
+## HTML 元素嵌套关系
+
+* 块级元素可以包含行内元素
+* 块级元素不一定能包含块级元素
+  * p 不能包含div
+* 行内元素一般不能包含块级元素
+  * a > div合法
+
+
+## HTML元素默认样式
+ 
+ * 默认样式的意义
+ * 默认样式带来的问题
+ * CSS Reset
+
+## 题目
+
+* HTML XHTML HTML5的关系
+  * HTML属于SGML
+  * XHTML属于XML, 是HTML进行XML严格化的结果
+
+* HTML5有什么变化
+  * 新的语义化元素
+  * 表单增强
+  * 新的API(离线、音视频、图形、实时通信、本地储存、设备能力)
+
+ * em和i有什么区别
+   * em是语义化的标签，表强调
+   * i是纯样式的标签、表斜体
+
+ * 语义化的意义是什么
+ 	* 开发者容易理解
+ 	* 机器容易理解结构(搜索引擎)
+ 	* 有助于SEO
+ * 哪些元素可以自闭合
+ 	* 表单元素input
+ 	*  图片img
+ 	* br hr
+ * HTML和DOM的关系
+ 	* HTML是‘死’的
+ 	* DOM由HTML解析而来, 是活的
+ 	* JS可以维护DOM
+ * property和attribute的区别
+ 	* porperty特性， 是‘死’的
+ 	* attribute属性，是‘活’的
+[attribute-vs-property](http://lucybain.com/blog/2014/attribute-vs-property/)
+
+JS DOM 有properies(特性)，properties可以是不同的类型(boolean, string etc). Properties 可以用 jQuery的prop方法来获得
+
+Attributes 存在HTML中，而不是DOM. Atrributes和properties非常的相似，但没有properties好。 一个attribute 只能是string，没有其它类型。
+
+```
+<input type="checkbox" checked=true/>
+
+$('input').prop('checked'); // returns true
+$('input').attr('checked'); // returns "checked"
+
+```
+
+如果一个元素有默认的值，attribute会显示默认值，即使值发生了改变。
+
+````
+<input type="text" name="username" value="user123">
+
+$('input').prop('value', '456user');
+$('input').prop('value'); // returns "456user"
+$('input').attr('value'); // returns "user123"
+
+```
+
+在你想要设置一个自定义的attribute时候（当没有property关联），attributes会有用
+
+```
+<input type="text">
+
+$('input').prop('customAttribute', 'something custom');
+$('input').prop('customAttribute'); // returns "something custom"
+$('input').attr('customAttribute'); // returns undefined
+
+```
+
+* form的作用有哪些
+	* 直接提交表单
+	* 使用submit/reset按钮
+	* 便于浏览器保存表单
+	* 第三方库可以整体提取值
+	* 第三方库可以进行表单验证

@@ -71,7 +71,7 @@ xhr.send(null);
 
 [XMLHttpRequest.readyState](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState)
 
-![Alt text](./ajax_1.png)
+![Alt text](./img/ajax_1.png)
 
 
 通信过程中，每当实例对象发生状态变化，它的`readyState`属性的值就会改变。这个值每一次变化，都会触发`readyStateChange`事件。
