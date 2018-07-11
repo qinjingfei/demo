@@ -64,7 +64,7 @@
  ![html_1](./img/html_1.png)
 
 
-* <base href="/">
+* `<base href="/">`
  * 指定基础路径, 所有路径都是以这个路径为基准 
 
 ### HTML重要的属性
@@ -123,7 +123,7 @@
 * select > option[value]
 * label[for]
 
-[简单的demo](https://qinjingfei.github.io/demo/etc/1.html)
+[简单的demo](https://qinjingfei.github.io/demo/etc/html/1.html)
 
 ### 如何理解HTML
 
