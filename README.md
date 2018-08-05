@@ -36,3 +36,4 @@ No | Note |
 2  | [html总结](https://github.com/qinjingfei/demo/blob/master/etc/html.md)|
 3  | [异步](https://github.com/qinjingfei/demo/blob/master/etc/async.md) |
 4  | [创建对象和继承的几种方式](https://github.com/qinjingfei/demo/blob/master/etc/object.md) |
+5 | [Virtual DOM](https://github.com/qinjingfei/demo/blob/master/etc/virtual_dom.md) |

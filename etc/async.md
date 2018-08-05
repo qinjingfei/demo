@@ -20,6 +20,11 @@
 	* 两段JS也不能同时执行（都修改DOM就冲突了）
 	* webworker支持多线程，但是不能访问DOM
 * 解决方案 - 异步
+
+* 什么是异步
+
+所谓"异步"，简单说就是一个任务分成两段，先执行第一段，然后转而执行其他任务，等做好了准备，再回过头执行第二段。
+
 * 异步的问题
 	* 没有按照书写方式执行，可读性差
 	* callback中不容易模块化
@@ -71,6 +76,11 @@ console.log(400)
 
 [JSConf Event loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=319s)
 ![JSConf event loop](./img/async_1.png)
+在这里，setTimeout()会先被push进入stack, 执行里面非callback代码，被pop的时候，把callback push到task queue里面。task queue只有在stack里面为空时，才执行里面的callback.
+
+[阮一峰 Generator 函数的含义与用法](http://www.ruanyifeng.com/blog/2015/04/generator.html)
+
+
 
 * event-loop, JS实现异步的具体解决方案
 * 同步代码，直接执行

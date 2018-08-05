@@ -123,7 +123,7 @@
 * select > option[value]
 * label[for]
 
-[简单的demo](https://qinjingfei.github.io/demo/etc/html/1.html)
+[简单的demo](https://qinjingfei.github.io/demo/etc/html/html/index.html)
 
 ### 如何理解HTML
 
