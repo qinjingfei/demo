@@ -12,8 +12,7 @@ No| Guide | Demo | CodePen|
 
 # ES6 笔记
 
-阅读阮一峰ECMAScript 6 入门的笔记
-[阮一峰ECMAScript 6 入门](https://legacy.gitbook.com/book/wohugb/ecmascript-6/details)
+阅读[阮一峰ECMAScript 6 入门](https://legacy.gitbook.com/book/wohugb/ecmascript-6/details)
 
 ## 目录
 

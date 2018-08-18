@@ -5,7 +5,7 @@
 * virtual dom, 虚拟DOM
 * 用JS模拟DOM结构
 	* DOM 操作非常“昂贵”
-* 将DOM对比操作放在JS层，提高效率
+	* 将DOM对比操作放在JS层，提高效率
 
 ![](./img/virtual_dom_1.png)
 
@@ -21,7 +21,7 @@
 
 Example
 
-```
+```javascript
 var snabbdom = require('snabbdom');
 var patch = snabbdom.init([ // Init patch function with chosen modules
   require('snabbdom/modules/class').default, // makes it easy to toggle classes
